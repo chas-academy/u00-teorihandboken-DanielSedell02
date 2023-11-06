@@ -4,7 +4,7 @@ Studerande: Daniel Sedell
 ## PJ 1.1 Agila metoder (Scrum, Kanban, Extreme Programming)
 Scrum
 
-Scrum är en agil metod som stödjer grupper att arbeta tillsammans effektivt och att framgångsrikt genomföra betydelsefulla uppgifter. Scrum tillhandahåller en omfattande överblick över principer, roller och riktlinjer för att hjälpa teamet att koncentrera sig på iterationer och kontinuerlig förbättring. 
+Scrum är en agil metod som stödjer grupper att arbeta tillsammans effektivt och att framgångsrikt genomföra betydelsefulla uppgifter. Scrum tillhandahåller en omfattande överblick över principer, roller och riktlinjer för att hjälpa teamet att koncentrera sig på iterationer och kontinuerlig förbättring.
 
 1986 så introducerades "Scrum" som vi kallar den metoden idag. Den publicerades i artikeln "The New New Product Development Game", då den var skriven av Hirotake Takeuchi och Ikujiro Nonak för Harvard Business Review. Själva ordet "Scrum" kommer från sporten rugby, där man kan förklara ordet "Precis som i rugby, där laget samarbetar genom att överföra bollen medan de förflyttar sig på planen."
 
@@ -12,7 +12,7 @@ Kanban
 
 Kanban skulle jag förklara som en liten mer bredare metodik än Scrummetodiken. Den är den mest vanliga metodiken som de flesta använder. Man kan säga att Kanaban är det som utgör ett visuellt ramverk för att effektivt kontrollera hur uppgifter hanteras inom en process.
 
-På 1940 talet-så utvecklades kanban för första gången av Taiichi Ohno. Det har under flera decennier digitaliserats och utvecklas för att kunna göra det så enkelt så möjligt för att hantera arbete. 
+På 1940 talet-så utvecklades kanban för första gången av Taiichi Ohno. Det har under flera decennier digitaliserats och utvecklas för att kunna göra det så enkelt så möjligt för att hantera arbete.
 
 Extrem programming
 
@@ -22,47 +22,41 @@ Extrem programmeing eller "XP" som man brukar kalla det är som alla andra agila
 
 Referenser:
 
-[Asana Scrum och kanban](https://asana.com/sv/resources/waterfall-agile-kanban-scrum)
-<br>
-[Asana XP](https://asana.com/resources/extreme-programming-xp)
+Asana Scrum och kanban
+Asana XP
 
-[ChatGPt användes för formattering av min text](https://chat.openai.com/)
-
-
+ChatGPt användes för formattering av min text
 
 ## PJ 1.2 Icke-agila metoder
-Agile metod är den mest vanliga metoden som vi använder i dagens samhälle. Men om vi vill arbeta mer tradionnellt så finns det en annan metod för det. Den Metoden heter Waterfall. 
+Agile metod är den mest vanliga metoden som vi använder i dagens samhälle. Men om vi vill arbeta mer tradionnellt så finns det en annan metod för det. Den Metoden heter Waterfall.
 
-kort sagt kan man säga att waterfall är metodik där man måste genomföra steget man håller på med innan man kan gå vidare med nästa. Där kan man även inte gå tillbaka och göra ändringar, då det är en stor skillnad från den Agila metoden då man kan gå tillbaka och ändra saker. 
+kort sagt kan man säga att waterfall är metodik där man måste genomföra steget man håller på med innan man kan gå vidare med nästa. Där kan man även inte gå tillbaka och göra ändringar, då det är en stor skillnad från den Agila metoden då man kan gå tillbaka och ändra saker.
 
-Waterfall delar man upp i sex olika faser, där varje fas innehåller viktiga steg som leder till en slutprodukt. 
+Waterfall delar man upp i sex olika faser, där varje fas innehåller viktiga steg som leder till en slutprodukt.
 
-Första steget heter "Kravfasen" och den innebär att inom gruppen ska man försöka samla in så mycket information som möjligt. Man gör så för att försäkra sig att projektet är möjligt att genomföra. 
+Första steget heter "Kravfasen" och den innebär att inom gruppen ska man försöka samla in så mycket information som möjligt. Man gör så för att försäkra sig att projektet är möjligt att genomföra.
 
-Andra steget heter "Systemdesign" då det innebär att man skapar själva designen för projektet. 
+Andra steget heter "Systemdesign" då det innebär att man skapar själva designen för projektet.
 
 Tredje steget heter "Implementering". I det här steget börjar man alltså att utföra projektet från den designen man gjorde från förgående steg. I det här fallet så är det koden som ska skrivas.
 
-Fjärde steget "Integration och testning" kan man nästan lista ut genom att kolla på rubriken. Man testar helt enkelt om allt fungerar som det ska genom en systemtestning. 
+Fjärde steget "Integration och testning" kan man nästan lista ut genom att kolla på rubriken. Man testar helt enkelt om allt fungerar som det ska genom en systemtestning.
 
-Femte steget "Verifierning och validerning" så granskar man projektet och kollar om det uppfyller alla kraven innan det ska vidare. 
+Femte steget "Verifierning och validerning" så granskar man projektet och kollar om det uppfyller alla kraven innan det ska vidare.
 
-Sista steget "Driftsättning och underhåll" är när projektet kan användas av kunderna. Underhåll kommer att tillämpas fortfarande om det skulle vara något problem. 
+Sista steget "Driftsättning och underhåll" är när projektet kan användas av kunderna. Underhåll kommer att tillämpas fortfarande om det skulle vara något problem.
 
-Så när egentligen vill man använda denna metod? Jag tror bästa anledningen att använda denna metod är när man har ett tydligt slutmål med projektet. Man kan då jobba sig bakåt för att nå alla dessa mål man redan då tänkt igenom. En annan anledning att använda Vattenfallsmetoden är att det är enkelt att se vad man håller på med I alla stegen. Det här är för att man går igenom alla stegen nogrant innan man går vidare. 
+Så när egentligen vill man använda denna metod? Jag tror bästa anledningen att använda denna metod är när man har ett tydligt slutmål med projektet. Man kan då jobba sig bakåt för att nå alla dessa mål man redan då tänkt igenom. En annan anledning att använda Vattenfallsmetoden är att det är enkelt att se vad man håller på med I alla stegen. Det här är för att man går igenom alla stegen nogrant innan man går vidare.
 
-[Asana Vattenfallsmetoden](https://asana.com/sv/resources/waterfall-project-management-methodology)
-<br>
-[Slides från lektionen Tisdag 3.10 - Att arbeta agilt](https://chasacademy.instructure.com/courses/287/files/10758?module_item_id=7038)
+Asana Vattenfallsmetoden
+Slides från lektionen Tisdag 3.10 - Att arbeta agilt
 
-
-[ChatGPt användes för formattering av min text](https://chat.openai.com/)
-
-
+ChatGPt användes för formattering av min text
 
 
 
 ## PJ 1.3 Entreprenörskap inom webbutveckling
+PJ 1.3 Entreprenörskap inom webbutveckling
 Entreprenörskap inom webbutveckling handlar om att starta och driva ett företag som skapar och hanterar webbplatser och webbappar. Det är en spännande bransch som påverkar hur vi driver affärer i dagens digitala värld. Denna bransch erbjuder många möjligheter och utmaningar och växer snabbt när samhället blir allt mer digitalt.
 
 När man lär sig detta kan man ofta vara en "wantrepreneur", vilket betyder att man redan har idéer om ett företag eller en idé som man vill skapa, men att man ännu inte har kommit någonstans med det.
@@ -83,14 +77,9 @@ Det sista steget kan kallas underhållsfasen, där jag kontinuerligt underhålle
 
 Varför skulle jag vilja använda entreprenörskap inom webbutveckling? Det blir viktigt när jag bestämmer mig för att starta mitt eget företag med den kunskap jag har. Det ger mig friheten att forma företagsstrukturen och kulturen som jag föredrar. Jag strävar alltid efter personlig utveckling, och entreprenörskap är perfekt om jag vill utvecklas och ta det extra steget i min karriär.
 
-[ChatGPt användes för formattering av min text](https://chat.openai.com/)
+ChatGPt användes för formattering av min text
 
-[Slides från lektionen Onsdag 11.10 - Entrepernörskap](https://drive.google.com/file/d/1mRHUMm1MS2nWiAOj7jjdM15vhhKjLpRL/view)
-
-
-
-
-
+Slides från lektionen Onsdag 11.10 - Entrepernörskap
 
 ## PJ 1.4 Issue distribution and handling in a group
 Allt mer och mera arbete utförs i form av grupparbete nu förtiden. Om vi har mer kunskap om hur man arbetar bäst i grupper och hanterar obekväma situationer så har vi möjlighet att kunna prestera bättre. Jag ska beskriva lite om hur man kan bli bättre på att hantera situationer i grupp och varför vi behöver bli bättre på att jobba i grupp. 
