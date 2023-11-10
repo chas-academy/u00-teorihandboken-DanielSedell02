@@ -106,38 +106,66 @@ Ett annat argument att använda webbtillgänglighet är att man får en ökad an
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## HC 1.4 Aktuella webbstandarder (gällande och kommande standarder)
+Webbstandarder är riktlinjer från organisationer som World Wide Web Consortium (W3C) och andra standardiseringsgrupper. Dessa riktlinjer fastställer hur webbaserat innehåll bör skapas och tolkas. Även om begreppet webbstandarder har funnits sedan de tidiga dagarna av internetutvecklingen, har det bara nyligen blivit allmänt omfamnat av de mest populära webbläsarna.
 
+Syftet med webbstandarder är att säkerställa att information som publiceras på internet är hållbar och samtidigt tillgänglig för så många användare som möjligt. Webbplatser som följer dessa standarder är utformade för att fungera korrekt i de senaste webbläsarna och kommer även att vara tillänglig för framtida webbläsare.
 
+Webbstandarder har sitt ursprung i behovet att strukturera och standardisera webbsidor samt etablera etiska riktlinjer för deras skapande och användning. De tre ursprungliga webbstandarderna kan vara igenkännbara som Hypertext Markup Language (HTML), Uniform Resource Identifier (URL) och  HyperText Transfer Protocol (HTTP).
+
+HTLM är en av den vanligaste webbstandarderna vi har idag. Det är även en webbstandar som jag använder rätt så mycket när jag skriver mina projekt. HTML är själva webbens publiceringsspråk, varje sida grundar sig från den. En av egenskaperna man kan skapa med HTML är tillgänglighet. Med de olika HTML-tilgänglihetsalternativ kan man hjälpa människor så att de kan använda din hemsida på ett så effektivt sätt som möjligt. 
+ 
+CSS är något som jag använder mycket och det är en webbstandard som kan hjälpa till med designflexibilitet. Med CSS kan man ändra storlek på sina texter, färger och annat som kan ändra strukturen på ett positivt sätt. 
+
+Webbstandarder erbjuder fördelar för både webbanvändare och webbutvecklare. Genom att anpassa sig till webbstandarder och följa WCAG-riktlinjerna, kan man förbättra sökmotoroptimering och tillgänglighet samtidigt som man stöder framsteg inom teknologi och designflexibilitet. Detta gynnar både dem som navigerar på webben och de som skapar webbinnehåll.
+
+[Webflow](https://webflow.com/blog/web-standards)
+
+[w3c](http://www.w3c.se/resources/w3c/standards/index.html)
+
+[ChatGPT för formatering](https://chat.openai.com/)
 ## HC 1.5 CSS Pre-processorer (ex SASS/LESS)
-Beskriv rubriken nedan här
+
+CSS Pre-processorer är ett program som låter dig generera CSS från förproccernas egan unika synax. De vanligaste CSS Pre-processorerna som används är SASS eller LESS. 
+
+Sass som är en av de mer vanligare CSS Pre-processorer har funnits ett tag. I Sass är en av de mest praktiska funktionerna möjligheten att skapa variabler. Liknande andra programmeringsspråk kan du tilldela värden till variabler för att enkelt återanvända dem senare. I Sass definieras variabler genom att använda dollartecknet ($) före variabelnamnet, som exempelvis: 
+
+$ background-color: #2E3A23 
+
+Det finns två större anledningar varför man vill skriva såhär. En av dem är att om du behöver använda samma färg på flera av dina sidor så behöver du helt enkelt bara komma ihåg vad för variabel du skrev. Andra anledningen är att Om du någonsin behöver ändra värdet för flera väljare är allt du behöver göra att ändra ett värde i variabeln. 
+
+@Import
+
+Sass utökar CSS @import-regeln för att möjliggöra import av både Sass- och SCSS-filer. Samtliga importerade filer kombineras sedan till en enda utmatad CSS-fil. Dessutom överför alla variabler eller mixins som definieras i de importerade filerna till huvudfilen, vilket innebär att du kan blanda och matcha olika filer med försäkran om att alla stilar bibehålls på global nivå.
+
+Vid användning av @import specifieras ett filnamn att importera. Som en sista utväg kan Sass-import utföras genom att ange filnamnet för Sass- eller SCSS-filerna. Om inget filändelse anges kommer Sass att försöka hitta en fil med det namnet och antingen .scss eller .sass-förlängning och importera den.
+
+I en typisk Sass-projektinstallation kan du observera @import-regler inom en basfil. Det möjliggör en smidig synkronisering mellan flera filer vid kompileringen, till exempel: 
+
+@import "main.scss";
+
+I den senaste uppgiften "u02 redesign" så använder vi @import för att kunna länka stylingen mellan olika dokument. Det gör vi för att man inte ska behöva skriva en massa onödig kod. 
+
+När man väll har förstått och fattar hur man kan använda SASS på ett smidigt sätt så kommer man alltid att implementera det i sitt projekt.
+
+[Lektionsmaterial](https://chasacademy.instructure.com/courses/287/files/10468?module_item_id=7006)
+
+[Beginneer guide till SASS](https://sv.odwebdesign.net/the-beginners-guide-to-sass/)
+
+[ChatGPT för formatering av text](https://chat.openai.com/)
 
 ## HC 1.6 Optimering och validering av HTML & CSS
-Beskriv rubriken nedan här
+
+HTML- och CSS-validering involverar att granska koden för en webbplats för att säkerställa att den är i linje med de senaste standarderna och fri från fel. Denna process är avgörande för att säkerställa att webbplatsen är läsbar och begriplig för både människor och sökmotorrobotar. Dessutom kan validering bidra till att förbättra laddningstiden för webbplatsen, vilket är kritiskt för SEO-optimering. Vidare har HTML- och CSS-validering potential att identifiera och åtgärda säkerhetsbrister innan de blir potentiella problem. 
+
+Hur kan vi optimera och validera våran kod på bästa möjliga sätt?
+
+Först och främst, ingen vill besöka en hemsida där allt innehåll laddar in långsamt, bilderna är för stora eller texten har fel font-size. En av de bättre optimeringar  man kan göra är att förminska din kod.  Att optimera din kod innebär att eliminera överflödiga tecken, mellanslag, kommentarer och formatering från dina HTML- och CSS-filer. Denna process syftar till att reducera filstorleken och därmed påskynda laddningstiden för dina webbsidor. För att uppnå detta kan du använda olika verktyg och plugins, antingen online eller lokalt, som automatiskt eller manuellt minimerar din kod.
+
+Förutom att förbättra prestanda har förminskning av kod också en fördelaktig sidoeffekt – det blir svårare för andra att kopiera eller ändra din kod. Genom att eliminera onödiga detaljer och extratecken skapas en mer kompakt och svårtydd kod, vilket ökar säkerheten och skyddet för din webbplats.
+
+Valedering är något som är väldigt viktigt. Anledningen varför man vill valedera är att en validator underlättar upptäckten av enkla misstag och felsteg på ett smidigt sätt, vilket sparar oss från onödiga huvudvärk. Dessutom bidrar det till att skapa en ökad konsistens på våra webbplatser över olika webbläsare. Validatorn fungerar som ett verktyg för att säkerställa att vår webbkod är korrekt och följer standarder, vilket i sin tur främjar en bättre användarupplevelse och en mer enhetlig presentation av webbplatsen.
+
+[ChatGPT för formatering av text](https://chat.openai.com/)
+[Lektionsmaterial 3-Optimering-och-validering.pdf](https://chasacademy.instructure.com/courses/287/files/10575?module_item_id=7017)
+[linkedin optimering och validering](https://www.linkedin.com/advice/3/what-most-effective-html-css-optimization-86tlf#:~:text=LinkedIn%20Top%20Voice-,The%20most%20effective%20HTML%20and%20CSS%20optimization%20strategies%20for%20your,Implement%20efficient%20CSS%20selectors.)
