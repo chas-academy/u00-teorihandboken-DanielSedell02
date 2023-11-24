@@ -1,7 +1,54 @@
 # Teorihandboken - HTML & CSS (HC)
 Studerande: Daniel Sedell
+Studerande: Daniel Sedell
 
 ## HC 1.1 HTML & CSS
+Html står för HyperText Markup Language och är det vi som vi kan kalla grunden till alla internets webbsidor. Html utgör själva strukturen på våra sidor, där det kan vara allt från bilder till styckesindelningar. 
+
+Hur använder vi HTML?
+
+Inom HTML har vi olika Element som bygger upp själva strukturen inom vår hemsida. En av de vanligaste elementen inom HTML när man vill skriva något heter p eller paragraf. 
+
+<p>Hej jag heter Daniel</p>
+
+Man brukar likna en paragraf med en brödtext. I alla elementen så börjar man nästan alltid med en starttag och avslutar med en endtag. Så när man skriver något inom de tagarna så vet man vart man har skrivit och vad man skriver. 
+
+Det finns såklart undantag med vissa element angående sluttagar. Som elementet img så har den ingen sluttag. 
+
+<img 
+src="https://dogtime.com/wp-content/uploads/sites/12/2011/01/GettyImages-469196054-e1691415831480.jpg"
+alt="Bild på en rottweiler">
+
+HTML är grunden på vilken all webbutveckling vilar. Alla andra webbtekniker kan vara valfria, men HTML är oumbärlig för att skapa en webbsida. Även om det finns sätt att skapa webbsidor utan att behöva lära sig HTML, är det en nödvändig komponent i webbutveckling.
+
+CSS, som förkortas för Cascading Style Sheets, utgör en av de fundamentala komponenterna på webben. Den arbetar i samverkan med HTML och Javascript och kan betraktas som webbens ansikte utåt, eftersom den är ansvarig för att forma webbplatser visuellt. Med hjälp av CSS har du möjlighet att kontrollera diverse aspekter, inklusive typsnittsval och skapandet av elegant animation.
+
+Hur änvänder vi då CSS?
+
+Det finns många olika sätt att använda CSS, ett exempel kan vara när man vill ändra storlek eller form av en bild. Vi kan ta bilden från HTML exemplet ovan och lägga till lite styling som man brukar kalla det. 
+
+img {
+  border-radius: 50%;
+}
+
+Det som händer nu är att min bild kommer att utforma sig som en cirkulär bild. Genom att skriva border-radius så ändrar vi själva storleken på radien. 
+
+Man kan även lägga in CSS direkt in i HTML dokumentet. Det gör man genom att sätta ut en tag "<style>" och en slut tag "</style>", men problemet med detta är att det kan bli lite rörigt. Det är helt enkelt enklare om man skriver sin CSS kod i ett annat dokument som man länkar till sitt HTML dokument. Allting blir bara enklare med sortering och man hittar enklare sina olika delar av koden enklare. 
+
+Varför använder vi CSS?
+
+Största anledningen till att vi använder CSS är för att skapa inlevelse i sin webbsida, där det gäller färg, teckensnitt, justering av text och objekt mm. Så utan CSS skulle man inte kunna skapa dessa ändringar och det är sånt som är nödvändigt för att bygga upp en bra Webbsida. 
+
+
+
+
+[Exsitec användes för att hitta lite mer info om HTML och CSS](https://www.exsitec.se/)
+[ChatGPT användes för formatering av texten](https://chat.openai.com/)
+[Genomgång av HTML och CSS från slidsen](https://chasacademy.instructure.com/courses/287/modules/items/6715)
+
+
+
+
 Html står för HyperText Markup Language och är det vi som vi kan kalla grunden till alla internets webbsidor. Html utgör själva strukturen på våra sidor, där det kan vara allt från bilder till styckesindelningar. 
 
 Hur använder vi HTML?
