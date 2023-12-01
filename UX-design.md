@@ -44,6 +44,19 @@ https://www.dotyeti.com/blog/graphic-design-important-in-website-creation/
 
 ## UD 1.2 UX och användbarhet
 
+Användarupplevelse (UX) handlar om att förstå vad människor behöver och gillar när de använder en produkt eller tjänst. Det inkluderar att tänka på deras förmågor och begränsningar. Man tar även hänsyn till affärsmålen och målen för gruppen som leder projektet. Genom att följa bästa sätt att göra UX strävar man efter att göra användarnas upplevelse bättre när de använder produkten eller tjänsten. Målet är att skapa positiva tankar och känslor hos användarna. En bra UX-design hittar rätt balans mellan användarnas behov och företagets mål, vilket leder till en bra användarupplevelse och en bättre produkt.
+
+Man kan dela upp  i 4 olika delar. 
+
+1.Användbarhet – Var det lätt att slutföra en uppgift?
+2.Adopterbarhet – Vill jag upprepa upplevelsen?
+3.Önskvärt – Var det roligt och engagerande att använda produkten?
+4.Värde – Ger produkten värde – hjälper den mig att slutföra min JTBD?
+
+Så det viktiga när du implementerar användarupplevelse är att du alltid tänker igenom vad du gör.
+
+Användbarhet är jätteviktig för att ha en bra produkt eller upplevelse. Du kan ha den coolaste designen och en snygg användarupplevelse, men om det är svårt att använda kommer folk att stöta på problem. Det kan till och med göra att de väljer att använda något annat till slut. Så, användbarhet är verkligen nyckeln för att hålla användarna nöjda och lojala.
+
 
 ## UD 1.3 Riktlinjer för användbarhet
 Beskriv rubriken här
