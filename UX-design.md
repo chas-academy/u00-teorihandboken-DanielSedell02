@@ -105,9 +105,22 @@ Empiriska metoder är sätt att samla information genom att observera saker elle
 
 Intervjuer är när du ställer frågor till någon för att få information. Det kan vara frågor som är planerade, halvplanerade eller inte planerade alls. Inom samhällsvetenskap och humaniora, när man skriver en uppsats och använder empiri (verklig information), använder man ofta frågor som är halvplanerade. Det betyder att forskaren har några frågor i åtanke, men det är också öppet för mer diskussion.
 
+<h3>Viktiga saker att tänka på under en intervju</h3>
+
+- Ställ bara en fråga i taget så man inte göra det för komplicerat
+- Håll det simpelt, ställ gärna öppna frågor som är enkla att svara på. 
+- Lyssna och sammanfatta 
+- stäm av ibland så att du hänger med. 
+
+
 Observationer handlar om att titta på vad som händer eller hur människor beter sig. Om forskaren bara tittar utan att vara en del av det som händer, kallas det "icke-deltagande observation". Om forskaren är en del av det som händer och även är involverad, kallas det "deltagande observation". Det är som att vara med i händelsen eller gruppen och dela ens egna erfarenheter.
 
 Vidare kan observationer vara antingen strukturerade eller systematiska. Om forskaren tittar på något på ett ordnat sätt för att förstå det bättre, kallas det "strukturerad observation". Forskaren försöker förstå vad som händer i en situation eller med en grupp människor genom att titta på det på ett systematiskt sätt, vilket betyder att det görs på ett organiserat och planerat sätt.
+
+Källor 
+
+https://chasacademy.instructure.com/courses/287/files/11342?module_item_id=7126
+https://www.diva-portal.org/smash/get/diva2:326556/FULLTEXT01.pdf
 
 
 ## UD 1.7 Grundläggande kognitionspsykologi
