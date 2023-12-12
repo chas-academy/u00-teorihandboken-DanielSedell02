@@ -51,10 +51,41 @@ https://www.usability.gov/what-and-why/user-experience.html
 
 
 ## UD 1.3 Riktlinjer för användbarhet
-Beskriv rubriken här
+Usability handlar om att bedöma hur effektivt och lättanvänt ett system, en produkt eller en tjänst är för användaren. Det innebär att skapa användargränssnitt eller design som underlättar användarens interaktion och skapar en positiv användarupplevelse. Målet är att minska eventuella hinder och göra det smidigt för användare att utföra sina uppgifter på ett enkelt och intuitivt sätt. Usability är en väsentlig del av UX (användarupplevelse) och är avgörande för att utforma produkter och tjänster som tillsätter användarnas behov på ett tillfredsställande sätt.
+
+Det finns många olika riktlinjer som bör följas för användarbarhet. Nedan kommer jag nämna några som bör tillämpas.
+
+- <h3>Optimering av UX</h3>
+   För att göra din webbplats bättre för besökarna, undvik irriterande popup-fönster och se till att den ser proffsig och pålitlig ut. Ha tydliga steg för användarna att följa, så det blir lättare för dem. Säg klart och tydligt om det kommer ta lång tid att vänta på något, så folk inte blir frustrerade. Gör viktig information lätt att skriva ut och sätt vanliga frågor på ett synligt ställe. Använd enkla ord och förklara väl för att undvika förvirring. Hjälp användare som inte är så vana genom att ge tydlig information och stöd på din webbplats.
+
+ - <h3>Designprocess och utvärdering</h3>
+    När du designar din webbplats är det bäst att ha användbart innehåll och undvika onödiga saker. Onödigt innehåll kan göra det svårt för din sida att fungera bra för besökare. Prata med riktiga användare under designprocessen för att förstå vad de vill ha och lyssna på deras idéer. Genom att möta användarnas förväntningar kan du bättre stödja deras behov. Ha klara mål för användbarhet och fundera på hur du kan nå dem. Om din webbplats inte syns när folk söker är chansen liten att den besöks. Jobba med olika utvecklare för att få olika perspektiv och göra din webbdesign bättre för olika grupper.
+- <h3>Hemsidan</h3>
+   Din hemsida är super viktig eftersom folk ser den först. Gör den lätt att hitta med klara länkar och få besökare nyfikna på att kolla mer om ditt företag. Många bestämmer sig efter att ha sett hemsidan om de vill fortsätta kolla på resten. Tänk på hur mycket text och bilder du lägger upp – för mycket kan göra folk förvirrade. Se till att hemsidan visar vad din webbplats eller företag handlar om. Om du ändrar något viktigt, berätta det tydligt på hemsidan så att folk vet.
+   
+
+   <br>
+   -källor:<br>
+    https://dynomapper.com/blog/19-ux/464-usability-guidelines
+    https://chasacademy.instructure.com/courses/287/files/11343?module_item_id=7127
+
+
+
+
+
 
 ## UD 1.4 Prototyping
-Beskriv rubriken här
+Inom design betyder "prototyp" en första version eller modell av en produkt eller ett system. Den används för att prova och utvärdera olika delar innan den riktiga versionen görs. Prototyper är viktiga i designprocessen för att visa och prata om idéer, testa funktioner och hitta problem eller sätt att göra det bättre.
+
+Man brukar dela in prototyper i två olika grupper. Den ena gruppen är enklare skisser och den andra är lite mera invecklad skisser. De prototyper som kan pratar om kallas för "high fidelity" och "low fidelity" 
+
+<h3>Vad är en high fidelity?</h3>
+
+En "high fidelity" är som en fin version av det du håller på att skapa. Det är som en snygg kopia av det färdiga produkten. Genom att ha snygga bilder och riktigt innehåll kan man visa hur det färdiga produkten kommer att se ut och kännas. När man testar det, ser man om det funkar och kan användas på ett riktigt sätt, eftersom det är interaktivt och fungerar på riktigt. Det gör att användarna får en bättre känsla av hur det kommer att vara när produkten är klar.
+
+<h3>Vad är en Low fidelity?</h3>
+
+En "low fidelity" är som en grov skiss av hur något kan se ut tidigt i skapandet. Designgrupper använder dessa för att snabbt prova en tanke, hitta problem och kasta bort designidéer som inte gillas av användarna. Det är ett viktigt steg i att tänka på hur något ska designas. Genom att använda enkla prototyper kan man experimentera med idéer för hur sidor ska se ut, hur innehållet ska organiseras och hur användarna ska röra sig genom det. 
 
 ## UD 1.5 Personas och målgruppsanalys
 
@@ -84,19 +115,6 @@ En user story är som en kort beskrivning av vad en funktion i en app eller på 
  https://www.toxic.se/blogg/vad-ar-skillnaden-pa-malgrupp-och-personas/#:~:text=Skillnaden%20mellan%20m%C3%A5lgrupp%20%26%20personas%3F,ger%20dessa%20personer%20en%20identitet.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## UD 1.6 Empiriska metoder
 
 Inom webbutveckling refererar empiriska metoder till användningen av praktiska erfarenheter och observationer som grund för beslut och utvecklingsprocesser. Dessa metoder innebär att samla in och analysera verkliga data och resultat från verkliga användare och system
@@ -123,5 +141,35 @@ https://chasacademy.instructure.com/courses/287/files/11342?module_item_id=7126
 https://www.diva-portal.org/smash/get/diva2:326556/FULLTEXT01.pdf
 
 
-## UD 1.7 Grundläggande kognitionspsykologi
-Beskriv rubriken här
+## UD 1.7 Grundläggande kognitionspsykologi'
+Grundläggande kognitionspsykologi handlar om att studera hur människor tänker och förstår saker. Det inkluderar att undersöka hur vi tolkar det vi ser, hör, smakar, luktar och känner. Dessutom tittar det på hur vi minns saker, hur vi löser problem, använder språk och riktar vår uppmärksamhet. Genom att studera dessa områden vill psykologer förstå hur våra tankar och mentala processer påverkar vårt beteende och hur vi interagerar med världen omkring oss.
+
+<h3>Varför behöver vi förstå användaren?</h3>
+
+- Anpassning och flexibilitet: Genom att förstå användarna kan organisationer och system anpassa sig till förändrade behov och trender. Det möjliggör flexibilitet och innovation.
+
+- Bättre kundrelationer: Inom företag och serviceindustrin är det avgörande att förstå kundernas behov och förväntningar för att kunna erbjuda en bättre kundservice. Det leder ofta till lojala och nöjda kunder.
+
+- Användarcentrerad design: Genom att förstå användarens behov och preferenser kan produkter och tjänster skapas med användaren i åtanke. Användarcentrerad design fokuserar på att skapa en positiv och effektiv användarupplevelse.
+
+Det här är bara några viktiga punkter varför vi ska förstå våra användare. 
+
+Kognitionspsykologi handlar om att studera hur vi tänker, minns saker, koncentrerar oss och förstår världen runt omkring oss. Forskare tittar på hur människor löser problem, använder språk och hur hjärnan arbetar med information. De undersöker också problem som minnesförlust. Kognitionspsykologi försöker sätta ihop all denna information för att förklara hur våra tankar påverkar vårt beteende.
+
+källor
+https://chasacademy.instructure.com/courses/287/files/11343?module_item_id=7127
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
