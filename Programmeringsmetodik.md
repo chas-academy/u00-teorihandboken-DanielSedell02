@@ -14,7 +14,27 @@ Beskriv rubriken här
 Beskriv rubriken här
 
 ## PG 1.5 Debugging
-Beskriv rubriken här
+En debugging metod som jag fick lära mig lite om under det senaste projektet var dd som står för "dump and die". 
+
+För att använda "dump and die" -funktionen, använder jag metoden dd() (för "dump and die"). Den här metoden tar ett eller flera argument och skriver sedan ut dem till skärmen innan den avbryter körningen av programmet. Det är särskilt användbart när jag vill inspektera variabler eller dataflöden vid en viss punkt i min kod. Så när jag fastnade och inte fattade varför inte min kod fungerade så använda jag den här metoden. Den fungerar såklart inte till allt med den hjälper när jag ville inspektera variablerna i min kod. 
+
+Loggar:
+
+Att använda loggar är en avgörande praxis för mig när jag debuggar programvara av flera skäl. Loggar fungerar som en inspelning av händelser och aktiviteter som äger rum under körningen av mitt program. Här är några viktiga skäl till varför det är viktigt för mig att använda loggar under debugging:
+
+1. Felsökning 
+
+När man kollar igenom sina loggar kan man se det som sin historik på allt man har gjort. Så då kan man enkelt kolla vart i sin kod och vid vilket tillfäle felet uppstod. 
+
+2. Kontextull information 
+
+Loggar kan ha massor av bra information, som till exempel värden på variabler, felmeddelanden och annan viktig information om vad som händer. Den här informationen kan vara jättebra för att förstå varför ett fel uppstår och för att göra det lättare att hitta och fixa felet.
+
+3. Prestandaanalys 
+
+Förutom att hjälpa till med att hitta och lösa problem kan loggar också användas för att kolla hur bra min applikation fungerar och hur den beter sig över tid. Genom att titta på loggarna kan jag se om det finns några problem med hur snabbt programmet körs, om det finns några flaskhalsar eller om det finns sätt att göra det bättre och snabbare.
+
+I grund och botten är loggar jätteviktiga för utvecklare när de försöker fixa och göra sina program bättre. Genom att titta på loggar kan utvecklare snabbt och enkelt hitta och lösa problem som uppstår när programmet körs. Detta gör att programmet blir mer pålitligt och fungerar bättre för användarna.
 
 ## PG 1.6 Dokumentation
 Beskriv rubriken här
