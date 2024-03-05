@@ -1,8 +1,25 @@
 # Teorihandboken - Programmeringsmetodik (PG)
-Studerande: Förnamn Efternamn
+Studerande: Daniel Sedell
 
 ## PG 1.1 Versionshantering (Git)
-Beskriv rubriken här
+Git är en populär versionshanteringslösning som används av företag och utvecklare runt om i världen. Det är ett verktyg som installeras på användarens enhet och som effektivt hanterar projekt av olika storlekar, från små till stora. Själv så använda vi det mycket i början när vi gjorde individuella projekt/uppgifter men senare övergick vi github. Men github är en en webaserad tjänst som använder git så de liknar varandra ganska mycket.
+
+Kommandon är något viktigt jag vill prata om. De är väldigt användbara som man kan spara mycket tid och är väldigt effektiva. Kommandonen är ett sätt att manipulera de interna delarna i Git. 
+
+//git init - så skapar man ett Git Projekt 
+//git add och git commit - så lägger vi till filer
+
+Det är bara en av de många användbara kommandon som jag har använt för att manipulera runt i git. 
+
+Grenhantering är också en väldigt stor del inom git versionshantering. Genom att använda grenar kan jag arbeta parallellt utan att störa mig själv eller mina kollegor. När jag ska implementera en ny funktion eller en ändring, skapar jag en ny gren från huvudgrenen, genomför mina ändringar i den nya grenen och sedan slår jag samman (merge) den med huvudgrenen när mitt arbete är klart och testat. 
+
+I början av kursen hade jag ingen anning om att man behövde jobba i olika branches eller varför man gjorde det. Det fick jag märka när det blev massa merge conflicts i våran u02, där jag hade suttit och skrivit min kod i main branchen. 
+
+
+Källor : https://limetta.se/tips-metoder-for-digitala-projekt/Vad-ar-GIT-och-GitHub/ och https://chasacademy.instructure.com/courses/287/files/9567?module_item_id=6356
+
+
+
 
 ## PG 1.2 Benchmarking
 Beskriv rubriken här
