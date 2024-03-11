@@ -109,14 +109,63 @@ En annan viktig del inom struktur av kod i ett projekt är att man kommenterar s
 
 
 ## PG 1.8 Automatisering av arbetsflöde
-Beskriv rubriken här
+Automatisering av arbetsflöde betyder att använda maskiner eller datorer för att göra jobbet lättare och snabbare. Istället för att människor måste göra alla uppgifterna för hand, kan maskiner eller datorprogram göra en del av arbetet automatiskt. Det kan till exempel handla om att sortera filer, skicka meddelanden eller göra rapporter.
+
+För att automatisera arbetsflöden börjar man med att titta på alla steg i arbetet och bestämmer vilka delar som kan göras automatiskt. Det kan vara allt från att svara på e-post till att spara dokument på rätt ställe. Sedan använder man olika tekniska verktyg för att göra dessa uppgifter automatiska. Det gör att man kan spara tid och undvika misstag som människor kan göra när de arbetar för hand.
+
+I många scenarion så passar det här in perfekt för att göra livet enklare för en, men vissa saker tycker jag själv blir enklare om man gör det för hand. 
+
+Vi kan ta våran low fidelity som vi gjorde för hand i u05an. Jag och mike tänkte att vi ska göra det så enkelt så möjligt och få en så bra inblick över det vi gör. Så då tog vi papper, penna och sax och körde igång: 
+
+![alt text](<images/image 36.png>)
+
+Det finns många fler fördelar med att införa automatisering av arbetsflöde än det finns nackdelar. En sak som gjorde vårat arbete mycket enklare att förstå och följa inom u05an var att vi använda Webhooks. Den typ av Webhooks vi använda var att varje gång någon gjorde en commit,pull request eller bara en ändring i vårat projekt så fick vi en notis i discorden. Det tycker jag själv hjälpte mig att förstå vad de andra i min grupp arbetade med och vad jag ska lägga fokus på. 
 
 ## PG 1.9 Virtualisering av utvecklingsmiljö
-Beskriv rubriken här
+
+Virtualisering av utvecklingsmiljö innebär att istället för att använda verkliga datorer eller servrar för att skapa program, använder man virtuella, digitala versioner av dessa. Det gör att utvecklare kan jobba i en skyddad och stabil miljö som är enkel att hantera och kopiera.
+
+
+Jag har använt Docker för att skapa och hantera min utvecklingsmiljö, och det är verkligen ett fantastiskt verktyg. Docker erbjuder flera fördelar som gör det till ett idealiskt verktyg för att virtualisera utvecklingsmiljöer.
+
+ Docker tillåter mig att paketera min applikation tillsammans med alla dess beroenden och konfigurationer i en enda enhet kallad en container. Det betyder att jag inte längre behöver oroa mig för att olika inställningar och miljöer på min lokala maskin ska skapa problem när jag delar min kod med andra eller distribuerar den till produktion.
+
+ Det bästa med en container är att allt som behövs för att jobba med projektet finns där. 
+
+![alt text](<images/Screenshot 2024-03-08 124724.png>)
+
+Som vi ser på skärmbilden jag har tagit här kan vi se de olika images. Så varje gång vi öppnar den här container genom vår vscode så får vi upp vår applikation, databasen och adminer där vi kan ändra i vår databas. 
+
+ En stor fördel är att jag kan snabbt starta och stoppa containers, vilket gör att jag kan testa mina applikationer och göra snabba ändringar utan att behöva vänta länge. Istället för att behöva vänta på att en virtuell maskin ska starta upp varje gång jag behöver göra en ändring eller testa en ny funktion, kan jag helt enkelt starta en ny container eller starta om en befintlig container på några sekunder. Det sparar mig mycket tid och möjliggör en smidigare och snabbare utvecklingsprocess.
+
+ källor: https://jsramverk.se/docker  https://chasacademy.instructure.com/courses/287/files/13106?module_item_id=7398
+
+
+
+
 
 ## PG 1.10 Bundeling-verktyg
-Beskriv rubriken här
+
+NPM, vilket är en förkortning av Node Package Manager, är ett verktyg som används för att hantera olika bitar kod som används när man bygger webbsidor eller appar med Node.js. Det fungerar som en slags digital affär där utvecklare kan hämta olika bitar kod som andra har skapat och dela med sig av.
+
+Det här är jättebra eftersom det sparar mycket tid. Tänk dig att du ska bygga ett hus och istället för att göra alla delar själv, som att gjuta cement, tillverka fönster och bygga dörrar, kan du gå till en butik där du kan plocka de bitarna som redan finns färdiga.
+
+Under u05an så använda vi npm för att kunna kompilera CSS och JavaScript, optimera bilder, starta utvecklingsservrar och mycket mer. En viktig sak var att alla behövde använda sig av samma version av npm. Annars så skulle inte alla i gruppen vara på samma tråd.  
+
+Vi kan kolla vilken verison av npm vi har genom att skriv "npm -v" i terminalen. Om vi då märker att vi inte har den nyaste version som behövs för att köra i det här projektet så skriver vi in "npm install -g npm@latest" i terminalen . Detta kommando installerar den senaste versionen av npm globalt (-g flaggan), vilket uppdaterar din nuvarande npm-installation till den nyaste tillgängliga versionen.
+
+Live server är ett väldigt bra och smidigt bundeling-verktyg som är väldigt använtbart. Det gör så att vi enkelt kan ladda sina webbsidor så vi kan se vad vi har skapat. 
+
+källor: https://docs.npmjs.com/about-npm 
+
 
 ## PG 1.11 Terminalinterface
-Beskriv rubriken här
+
+
+
+
+
+
+källor: https://chasacademy.instructure.com/courses/287/files/9527?module_item_id=6344
+
 
