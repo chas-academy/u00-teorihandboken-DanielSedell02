@@ -11,9 +11,9 @@ Kommandon är något viktigt jag vill prata om. De är väldigt användbara som 
 
 Det är bara en av de många användbara kommandon som jag har använt för att manipulera runt i git. 
 
-Grenhantering är också en väldigt stor del inom git versionshantering. Genom att använda grenar kan jag arbeta parallellt utan att störa mig själv eller mina kollegor. När jag ska implementera en ny funktion eller en ändring, skapar jag en ny gren från huvudgrenen, genomför mina ändringar i den nya grenen och sedan slår jag samman (merge) den med huvudgrenen när mitt arbete är klart och testat. 
+Grenhantering är också en väldigt stor del inom git versionshantering. Genom att använda grenar kan jag arbeta parallellt utan att störa mig själv eller mina kollegor. När jag ska implementera en ny funktion eller en ändring, skapar jag en ny gren från huvudgrenen, genomför mina ändringar i den nya grenen och sedan slår jag samman (merge) den med huvudgrenen när mitt arbete är klart och testat.
 
-I början av kursen hade jag ingen anning om att man behövde jobba i olika branches eller varför man gjorde det. Det fick jag märka när det blev massa merge conflicts i våran u02, där jag hade suttit och skrivit min kod i main branchen. 
+I början av kursen hade jag ingen anning om att man behövde jobba i olika branches eller varför man gjorde det. Det fick jag märka när det blev massa merge conflicts i våran u02, där jag hade suttit och skrivit min kod i main branchen.
 
 
 Källor : https://limetta.se/tips-metoder-for-digitala-projekt/Vad-ar-GIT-och-GitHub/ och https://chasacademy.instructure.com/courses/287/files/9567?module_item_id=6356
@@ -22,13 +22,29 @@ Källor : https://limetta.se/tips-metoder-for-digitala-projekt/Vad-ar-GIT-och-Gi
 
 
 ## PG 1.2 Benchmarking
-Beskriv rubriken här
+En benchmark som vi använde mycket under u03an var lighthouse. Det är ett smart verktyg som hjälper mig att kolla hur bra mina sidor fungerar. Lighthouse tittar på många saker, som hur snabbt sidorna laddar, om de är enkla att använda och om de funkar bra för alla som besöker dem, även de med funktionsnedsättningar. Det är som en superhjälpare som ger mig tips på hur jag kan göra mina sidor ännu bättre. Så när jag jobbar på en ny sida eller vill förbättra en gammal, tar jag alltid hjälp av Lighthouse för att se till att den blir så bra som möjligt.
+
+
 
 ## PG 1.3 Testdriven utveckling
 Beskriv rubriken här
 
 ## PG 1.4 Deploy och staging
-Beskriv rubriken här
+Deploy och staging är två viktiga steg när man arbetar inom ett projekt.
+
+<h3>Deploy</h3>
+När jag "deployar" min webbapplikation betyder det att jag gör den tillgänglig på internet så att andra kan använda den. Det är som att jag öppnar min butik för kunderna. Innan jag gör det brukar jag se till att allt är klart och fungerar som det ska.
+
+<h3>Staging</h3>
+Innan jag "deployar" min applikation, testar jag den vanligtvis på en speciell plats som kallas "staging". Staging är som en provplats där jag kan kolla om allt fungerar som det ska innan jag släpper ut applikationen för alla att använda. Det är som att jag övar en gång innan den riktiga matchen. Det ger mig chansen att upptäcka eventuella problem och fixa dem innan applikationen blir tillgänglig för alla. Så, deploy och staging är viktiga steg för att se till att min applikation fungerar bra och är redo att användas av andra människor.
+Det här har jag lärt mig mycket genom att jobba tillsammans i ett grupprojekt. En sak som kanske är standard men ändå viktigt att man inte glömmer bort när man jobbar i en grupp, det är att jobba i separata branches. Genom att jobba i separata branches kan alla jobba på sin del och testa saker utan att det ska påverka "main koden".
+
+En annan viktig del som tillhör själva staging-området är att man alltid ska skapa en test-main branch. Det är bra då det oftast kan uppstå många konflikter när alla i gruppen ska pusha in sin kod. Då om man har skapat en "test-main" så undviker man att helt sabotera sitt projekt.
+<br> 
+
+![alt text](images/1651990393397.jpg)
+
+källor: https://chasacademy.instructure.com/courses/287/files/15147?module_item_id=7902 
 
 ## PG 1.5 Debugging
 En debugging metod som jag fick lära mig lite om under det senaste projektet var dd som står för "dump and die". 
