@@ -54,7 +54,25 @@ Förutom att hjälpa till med att hitta och lösa problem kan loggar också anv�
 I grund och botten är loggar jätteviktiga för utvecklare när de försöker fixa och göra sina program bättre. Genom att titta på loggar kan utvecklare snabbt och enkelt hitta och lösa problem som uppstår när programmet körs. Detta gör att programmet blir mer pålitligt och fungerar bättre för användarna.
 
 ## PG 1.6 Dokumentation
-Beskriv rubriken här
+Dokumentation kan vara allt möjligt inom webbutveckling, från kodexempel till PDF-filer och versionshantering. En dokumentation som jag har använt mycket är Laravels egna dokumentation. Ibland kan det kännas tråkigt att läsa igenom dokumentation för att lära sig nya saker, och det var även min tanke när jag började med Laravel. Men ju mer jag läste igenom denna dokumentation, desto tydligare blev det hur enkelt det var att lära sig nya saker.
+
+En av fördelarna jag har märkt med denna dokumentation är att den går igenom steg för steg för viktiga delar som jag behöver för mitt projekt. Vi kan ta databasen som ett exempel.![alt text](<images/Screenshot 2024-03-15 091402.png>)
+
+
+ Nu när jag ser på den här bilden kan jag förstå den utan problem. Men när jag var helt ny till Laravel och databaser förstod jag inte helt vad allt innehåll betydde i den här .env-filen. Tack vare Laravels dokumentation förklarades steg för steg vad allt betydde och vad jag skulle ändra.
+
+En annan fördel med Laravels dokumentation är alla Artisan-kommandon som man enkelt kan kolla upp. Artisan-kommandon är en del av Laravel som heter Artisan, och det ger en mängd olika kommandon för att underlätta utvecklingsprocessen. Några av de mest användbara Artisan-kommandona inkluderar:
+
+- `php artisan serve`: Startar en lokal utvecklingsserver.
+- `php artisan make:model ModelName`: Skapar en ny modell.
+- `php artisan make:controller ControllerName`: Skapar en ny controller.
+- `php artisan make:migration CreateTableName`: Skapar en ny migrationsfil för att ändra databasstrukturen.
+- `php artisan migrate`: Kör alla migrationer för att uppdatera databasen.
+- `php artisan make:middleware MiddlewareName`: Skapar en ny middleware.
+
+
+källor: https://laravel.com/docs/11.x och u05an. 
+
 
 ## PG 1.7 Struktur av kod i projekt
 
@@ -107,6 +125,8 @@ Ett bra exempel från vårt tidigare projekt, U05AN, var att vi hade en bra stru
 --------------------------------------------------------------------------------------------------------------------------
 En annan viktig del inom struktur av kod i ett projekt är att man kommenterar sin kod. När jag skriver kod är det viktigt för mig att lägga till kommentarer. Det hjälper mig själv och andra att förstå vad varje del av koden gör. Kommentarerna fungerar som små förklaringar som berättar vad varje bit kod gör och varför den är viktig. På så sätt kan jag och andra lättare följa min tankegång och förstå koden bättre. Dessutom kan kommentarerna ge tips och förklaringar om eventuella problem eller särskilda saker att tänka på. Så när jag inkluderar tydliga kommentarer i min kod gör jag den mer användbar och lättare att förstå och jobba med. 
 
+Källor: https://chasacademy.instructure.com/courses/287/files/14673?module_item_id=7797 (Slidsen om kodstruktur)
+
 
 ## PG 1.8 Automatisering av arbetsflöde
 Automatisering av arbetsflöde betyder att använda maskiner eller datorer för att göra jobbet lättare och snabbare. Istället för att människor måste göra alla uppgifterna för hand, kan maskiner eller datorprogram göra en del av arbetet automatiskt. Det kan till exempel handla om att sortera filer, skicka meddelanden eller göra rapporter.
@@ -120,6 +140,8 @@ Vi kan ta våran low fidelity som vi gjorde för hand i u05an. Jag och mike tän
 ![alt text](<images/image 36.png>)
 
 Det finns många fler fördelar med att införa automatisering av arbetsflöde än det finns nackdelar. En sak som gjorde vårat arbete mycket enklare att förstå och följa inom u05an var att vi använda Webhooks. Den typ av Webhooks vi använda var att varje gång någon gjorde en commit,pull request eller bara en ändring i vårat projekt så fick vi en notis i discorden. Det tycker jag själv hjälpte mig att förstå vad de andra i min grupp arbetade med och vad jag ska lägga fokus på. 
+
+källor: Lektionen genomgång av figma, https://www.jitterbit.com/sv/blog/workflow-automation-part-1/ 
 
 ## PG 1.9 Virtualisering av utvecklingsmiljö
 
