@@ -22,7 +22,20 @@ Källor : https://limetta.se/tips-metoder-for-digitala-projekt/Vad-ar-GIT-och-Gi
 
 
 ## PG 1.2 Benchmarking
-En benchmark som vi använde mycket under u03an var lighthouse. Det är ett smart verktyg som hjälper mig att kolla hur bra mina sidor fungerar. Lighthouse tittar på många saker, som hur snabbt sidorna laddar, om de är enkla att använda och om de funkar bra för alla som besöker dem, även de med funktionsnedsättningar. Det är som en superhjälpare som ger mig tips på hur jag kan göra mina sidor ännu bättre. Så när jag jobbar på en ny sida eller vill förbättra en gammal, tar jag alltid hjälp av Lighthouse för att se till att den blir så bra som möjligt.
+En benchmark som vi använde mycket under U03-an var Lighthouse. Det är ett smart verktyg som hjälper mig att kolla hur bra mina sidor fungerar. Lighthouse tittar på många saker, som hur snabbt sidorna laddar, om de är enkla att använda och om de fungerar bra för alla som besöker dem, även de med funktionsnedsättningar. Det är som en superhjälpare som ger mig tips på hur jag kan göra mina sidor ännu bättre. Så när jag jobbar på en ny sida eller vill förbättra en gammal, tar jag alltid hjälp av Lighthouse för att se till att den blir så bra som möjligt.
+
+En annan viktig del inom benchmarking är tillgänglighetsdelen. Genom att använda sig av Lighthouse, som jag nämnde innan, kan man med hjälp av det förbättra saker på sin sida. Det kan vara bra att anpassa sin sida så att den fungerar för alla människor, speciellt för de som har funktionsnedsättningar. Genom att lägga till text till bilder brevid kan de med synnedsättning också ta del av och förstå vad som ska visas på hemsidan.
+
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600"> 
+
+Då i det här fallet kan de med synnedsättning se att det ska vara en bild på en tjej i en jacka.
+
+En annan viktig del inom benchmarking är prestandamätning för användare. Prestandamätning är av yttersta vikt inom webbutveckling då användare förväntar sig snabba och responsiva webbplatser. Ett sätt att minimera laddningstiden på din webbplats är att använda lämpliga bildformat, som JPEG för fotografier och PNG för grafik med genomskinlighet.
+
+En annan sak inom prestandamätning som jag har lärt mig är att minimera och komprimera kod. Allt onödigt som inte används i din kod till något bra ska gärna tas bort.
+
+
+källor: https://chasacademy.instructure.com/courses/287/files/10557?module_item_id=7013
 
 
 
