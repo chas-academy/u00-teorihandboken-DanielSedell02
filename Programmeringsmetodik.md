@@ -40,7 +40,23 @@ källor: https://chasacademy.instructure.com/courses/287/files/10557?module_item
 
 
 ## PG 1.3 Testdriven utveckling
-Beskriv rubriken här
+
+Testdriven utveckling (TDD) är en metod för att utveckla kod. Först skriver vi tester för att definiera vad vår kod ska uppnå. Sedan skriver vi själva koden för att uppfylla testerna. Efter det kan vi förbättra koden om det behövs. På detta sätt kan vi vara säkra på att vår kod gör det den ska och att den fungerar korrekt. TDD hjälper oss att skapa bättre och mer pålitlig kod eftersom vi testar den medan vi bygger den.
+
+Vi kan använda u05 som ett bra exempel på hur detta implementerades på ett bra sätt.
+
+När vi har fått den grundläggande funktionaliteten på plats är det dags att rikta uppmärksamheten mot designen. Det innebär att vi kan börja lägga till visuella element, förbättra användarupplevelsen och göra gränssnittet mer attraktivt och tilltalande för användarna. Det är viktigt att först ha en fungerande funktionalitet på plats innan vi börjar med designändringar. På så sätt kan vi vara säkra på att eventuella ändringar i designen inte påverkar den grundläggande funktionaliteten negativt och att användarna fortfarande kan använda applikationen smidigt och effektivt.
+
+Det var på detta sätt som det hjälpte oss att genomföra denna uppgift på ett smidigare sätt. Så först när vi började på ett nytt ärende försökte vi se till att backenden alltid fungerade. Då fixade vi våra funktioner i controllern så att de logiskt skulle fungera med det vi ville att de skulle göra. Självklart fixade vi också modellen och routen så att de var kopplade på rätt sätt. Sedan fixade vi en enkel vy på bladefilen så att det såg någorlunda okej ut på designsidan.
+
+
+
+
+
+
+Källor: 1-Laravel-och-MVC-fördjupning  https://chasacademy.instructure.com/courses/287/files/14796?module_item_id=7827 , 3-MVC-och-struktur-av-kod https://chasacademy.instructure.com/courses/287/files/14673?module_item_id=7797
+
+
 
 ## PG 1.4 Deploy och staging
 Deploy och staging är två viktiga steg när man arbetar inom ett projekt.
@@ -81,6 +97,8 @@ Loggar kan ha massor av bra information, som till exempel värden på variabler,
 Förutom att hjälpa till med att hitta och lösa problem kan loggar också användas för att kolla hur bra min applikation fungerar och hur den beter sig över tid. Genom att titta på loggarna kan jag se om det finns några problem med hur snabbt programmet körs, om det finns några flaskhalsar eller om det finns sätt att göra det bättre och snabbare.
 
 I grund och botten är loggar jätteviktiga för utvecklare när de försöker fixa och göra sina program bättre. Genom att titta på loggar kan utvecklare snabbt och enkelt hitta och lösa problem som uppstår när programmet körs. Detta gör att programmet blir mer pålitligt och fungerar bättre för användarna.
+
+källor: (dump and die) https://medium.com/@stdejan/unlocking-the-potential-of-dd-in-laravel-3fc17447b823 (lite generellt om debugging)https://www.dreamhost.com/blog/how-to-debug-php-errors/
 
 ## PG 1.6 Dokumentation
 Dokumentation kan vara allt möjligt inom webbutveckling, från kodexempel till PDF-filer och versionshantering. En dokumentation som jag har använt mycket är Laravels egna dokumentation. Ibland kan det kännas tråkigt att läsa igenom dokumentation för att lära sig nya saker, och det var även min tanke när jag började med Laravel. Men ju mer jag läste igenom denna dokumentation, desto tydligare blev det hur enkelt det var att lära sig nya saker.
@@ -212,11 +230,14 @@ källor: https://docs.npmjs.com/about-npm
 
 ## PG 1.11 Terminalinterface
 
+CLI står för Command Line Interface, vilket på svenska kan översättas till kommandoradsgränssnitt. Det är en textbaserad gränssnittsmetod för att interagera med datorsystem och programvara genom att skriva in kommandon och få respons i form av text.
 
+I CLI skriver användaren kommandon direkt till ett terminalfönster eller en terminalapplikation. Dessa kommandon kan användas för att utföra olika uppgifter, såsom att navigera i filsystemet, starta program, hantera filer och mappar, köra kompilerings- eller byggrutiner, och mycket mer. 
 
+CLI är som sagt väldigt använtbart då jag kan enkelt navigera genom mina filer på datorn. Det har jag gjort mycket då jag har behövt använda mig av kommandot "cd" för att lägga mig i rätt mapp. 
 
+Även en annan viktig del inom Terminalinterface är versionhantering. Versionhantering är en metod för att hantera förändringar i källkoden och andra filer under ett projekt. Det ger möjlighet till samarbete mellan flera personer och spårar vilka ändringar som gjorts, när de gjordes, och varför de gjordes. Genom att använda versionhantering kan man återgå till tidigare versioner av koden, jämföra olika versioner för att se skillnader, och hantera konflikter som kan uppstå när flera personer arbetar med samma fil. 
 
+En anledning till att jag starkt skulle rekommendera att man ska använda sig av versionhanteringen, är för att det gör allting enklare. Man har möjlighet att alltid återställa sin kod om man gjorde något fel, så slipper man massor av konflikter eller i värsta fall göra om allt på nytt. 
 
 källor: https://chasacademy.instructure.com/courses/287/files/9527?module_item_id=6344
-
-
