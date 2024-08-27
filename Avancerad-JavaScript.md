@@ -8,7 +8,40 @@ Beskriv rubriken här
 
 ## AJ 1.2 Express
 
-Beskriv rubriken här
+### Vad är Express?
+
+Express är ett populärt ramverk för att bygga webbapplikationer och API:er med Node.js. Det är känt för att vara enkelt, flexibelt och lätt att använda, vilket gör det till ett bra val för både nybörjare och erfarna utvecklare.
+
+### Hur fungerar det?
+
+Med Express kan du skapa "rutter" som bestämmer vad din applikation ska göra när någon besöker en viss sida eller skickar data till din server. Till exempel kan du skapa en rutt som visar en hemsida när någon går till din webbadress, och en annan rutt som tar emot användardata från ett formulär och sparar det i en databas.
+
+### Varför använda Express?
+
+1. **Enkelt och lätt att komma igång med:** Du kan snabbt sätta upp en server och börja bygga din applikation med bara några få rader kod.
+
+2. **Flexibelt:** Du kan anpassa och utöka Express efter dina behov, vilket gör det användbart för allt från små till stora projekt.
+
+3. **Stort community:** Eftersom Express är så populärt, finns det massor av exempel, handledningar och färdiga moduler som du kan använda för att spara tid och undvika att uppfinna hjulet på nytt.
+
+### Ett enkelt exempel
+
+Här är ett enkelt exempel på hur man kan använda Express för att skapa en webbserver som visar ett meddelande när någon besöker din sida:
+
+```javascript
+const express = require("express"); // Importera Express
+const app = express(); // Skapa en Express-app
+
+// Skapa en rutt för hemsidan
+app.get("/", (req, res) => {
+  res.send("Hej världen!"); // Skicka tillbaka "Hej världen!" när sidan besöks
+});
+
+// Starta servern på port 3000
+app.listen(3000, () => {
+  console.log("Servern körs på http://localhost:3000");
+});
+```
 
 ## AJ 1.3 Progressive Web Apps
 
