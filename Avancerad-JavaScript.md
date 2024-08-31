@@ -1,10 +1,45 @@
 # Teorihandboken - Avancerad JavaScript (AJ)
 
-Studerande: Förnamn Efternamn
+Studerande: Daniel Sedell
 
 ## AJ 1.1 Node.js
 
-Beskriv rubriken här
+### Vad är Node.js?
+
+Node.js är en plattform som låter dig köra JavaScript-kod på serversidan, istället för bara i webbläsaren. Det är byggt på V8, vilket är Googles JavaScript-motor, samma som används i webbläsaren Chrome. Tack vare Node.js kan man använda JavaScript för att bygga hela webbtjänster, API:er, och till och med backend för appar.
+
+### Varför använda Node.js?
+
+En av de största fördelarna med Node.js är att det är väldigt snabbt och effektivt. Det hanterar många samtidiga förfrågningar utan att behöva starta en ny process för varje förfrågan. Det här är möjligt eftersom Node.js använder en så kallad "event loop", som låter den hantera flera saker samtidigt.
+
+### När är Node.js bra att använda?
+
+Node.js är speciellt bra när du bygger applikationer som behöver hantera många förfrågningar samtidigt, till exempel chattapplikationer eller realtids-tjänster. Det fungerar också bra för att bygga API:er som kommunicerar med andra tjänster eller databaser.
+
+### Hur funkar det?
+
+Med Node.js kan du använda JavaScript för att skapa och hantera servern, läsa och skriva filer, prata med databaser, och mycket mer. Eftersom JavaScript är ett av de mest använda programmeringsspråken, kan utvecklare använda sina befintliga kunskaper för att snabbt komma igång med Node.js.
+
+### Ett enkelt exempel
+
+Här är ett grundläggande exempel på en server skapad med Node.js:
+
+```javascript
+const http = require("http");
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader("Content-Type", "text/plain");
+  res.end("Hello World!");
+});
+
+const port = 3000;
+server.listen(port, () => {
+  console.log(`Servern körs på port ${port}`);
+});
+```
+
+I det här exemplet skapar vi en enkel HTTP-server som svarar med texten "Hej, världen!" när någon besöker servern. Servern körs på port 3000, och du kan se ett meddelande i konsolen när servern startar.
 
 ## AJ 1.2 Express
 
@@ -49,7 +84,45 @@ Beskriv rubriken här
 
 ## AJ 1.4 Typningssystem för Javascript (ex TypeScript, Flow)
 
-Beskriv rubriken här
+# Typningssystem för JavaScript
+
+Ett typningssystem för JavaScript används för att ge fast typkontroll och hjälpa till att hitta och undvika fel som beror på felaktiga typer i koden. JavaScript är ett dynamiskt typat språk, vilket betyder att variabler kan ändra typ medan programmet körs. För att lägga till typkontroll i JavaScript används ofta **TypeScript** eller **JSDoc-kommentarer**.
+
+## Hur TypeScript fungerar
+
+TypeScript fungerar genom att lägga till fast typkontroll till JavaScript. Du skriver koden i TypeScript och bestämmer vilka typer variabler, funktioner och objekt ska ha. Sedan omvandlas TypeScript-koden till vanlig JavaScript, som kan köras i alla webbläsare eller miljöer.
+
+TypeScript använder också **duck typing**, vilket betyder att om ett objekt har de rätta egenskaperna eller funktionerna, så räknas det som rätt typ, oavsett vilken typ det ursprungligen var.
+
+## Vanliga TypeScript-annotations
+
+Här är några vanliga annotations som används i TypeScript:
+
+### `number`
+
+Används för att ange att en variabel är ett tal.
+
+```typescript
+let age: number = 30;
+```
+
+### `string`
+
+Anger att en variabel är en textsträng.
+
+```typescript
+let name: string = "Alice";
+```
+
+# TypeScript Annotation: `boolean`
+
+### `boolean`
+
+Används för att ange att en variabel är en sanningsvärdesvariabel, vilket innebär att den kan ha värdet `true` eller `false`.
+
+```typescript
+let isDone: boolean = false;
+```
 
 ## AJ 1.5 Funktionell programmering i JavaScript
 
