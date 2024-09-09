@@ -80,7 +80,27 @@ app.listen(3000, () => {
 
 ## AJ 1.3 Progressive Web Apps
 
-Beskriv rubriken här
+### Vad är en Progressive Web App?
+
+Progressive Web Apps är en typ av webbapplikation som kombinerar det bästa av webb och mobilappar. Du kan köra appen genom att ladda ner den eller direkt i din webbläsare. PWA kombinerar fördelarna med en webbplats med egenskaper från konventionella appar.
+
+### Varför ska man använda den typen av app?
+
+- PWA-tekniken som används är så kraftfull att man kan bygga en väldigt bra och responsiv app med den.
+- Det är mycket billigare att skapa en app med denna teknik, och den kan ersätta appar för iOS, Android och Windows Phone.
+- Man behöver inte ladda ner något, till skillnad från vanliga appar som kräver en nedladdning.
+
+Att skapa en Progressive Web App (PWA) innebär att bygga en vanlig webbapp och sedan lägga till några specifika funktioner för att göra den "progressiv". Här är en grundläggande överblick av hur du kan skapa en enkel PWA med HTML, CSS och JavaScript.
+
+### Steg för att skapa en enkel PWA
+
+- Bygg en grundläggande webbapp med HTML, CSS och JavaScript.
+- Skapa en manifestfil som beskriver appens metadata.
+- Använd service workers för att göra appen tillgänglig offline och hantera caching.
+
+Genom att följa dessa steg kan man skapa en grundläggande Progressive Web App (PWA) som inte bara fungerar smidigt offline, utan också kan installeras direkt på användarnas enheter. Det innebär att appen erbjuder en app-liknande upplevelse utan att behöva laddas ner via en traditionell appbutik. Nu är den fullt funktionell och redo att användas både online och offline, vilket ger användarna flexibilitet och en sömlös upplevelse, oavsett deras internetanslutning.
+
+Källor: [https://whitespace.se/blogg/vad-ar-pwa-eller-progressive-web-apps/](https://whitespace.se/blogg/vad-ar-pwa-eller-progressive-web-apps/)
 
 ## AJ 1.4 Typningssystem för Javascript (ex TypeScript, Flow)
 
