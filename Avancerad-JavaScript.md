@@ -146,7 +146,41 @@ let isDone: boolean = false;
 
 ## AJ 1.5 Funktionell programmering i JavaScript
 
-Beskriv rubriken här
+# Funktionell programmering
+
+Funktionell programmering är ett programmeringsparadigm som behandlar beräkning som utvärdering av matematiska funktioner. Det lägger stor vikt vid att undvika föränderligt tillstånd och muterbara data. Istället för att ändra variabler, fokuserar funktionell programmering på att använda rena funktioner som alltid ger samma utdata för samma indata.
+
+Funktionell programmering har sina rötter i lambda-kalkyl, ett formellt system utvecklat av matematikern Alonzo Church på 1930-talet. Lambda-kalkyl var ett sätt att undersöka beräkningsbarhet och funktioner, långt innan moderna datorer existerade.  
+Den första implementationen av ett funktionellt programmeringsspråk var Lisp, skapat av John McCarthy 1958. Lisp introducerade många koncept som fortfarande är centrala i funktionell programmering idag.
+
+## Viktiga egenskaper i funktionell programmering:
+
+- **Oföränderlighet (Immutability)**: Detta är en grundpelare. I funktionell programmering ändrar vi inte data när den väl skapats. Istället skapar vi nya datastrukturer när vi behöver göra ändringar. Detta minskar risken för oväntade sidoeffekter och gör koden mer förutsägbar.
+- **Rena funktioner**: Funktioner i funktionell programmering är "rena", vilket betyder att de alltid ger samma output för samma input och inte har några sidoeffekter. Detta gör koden lättare att testa och förstå.
+- **Högre ordningens funktioner**: Vi kan behandla funktioner som värden - skicka dem som argument till andra funktioner eller returnera dem från funktioner. Detta ger oss kraftfulla abstraktionsmöjligheter.
+
+## Exempel
+
+```javascript
+// Vi har en lista med tal
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// Vi vill filtrera ut jämna tal, dubbla dem, och sedan summera resultatet
+
+// Steg 1: Filtrera ut jämna tal
+const isEven = (num) => num % 2 === 0;
+const evenNumbers = numbers.filter(isEven);
+
+// Steg 2: Dubbla varje tal
+const double = (num) => num * 2;
+const doubledNumbers = evenNumbers.map(double);
+
+// Steg 3: Summera alla tal
+const sum = (acc, num) => acc + num;
+const total = doubledNumbers.reduce(sum, 0);
+
+console.log("Summan av de dubblade jämna talen är:", total);
+```
 
 ## AJ 1.6 Avancerad funktionalitet i ES.next
 
