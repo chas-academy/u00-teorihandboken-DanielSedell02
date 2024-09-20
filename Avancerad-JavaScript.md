@@ -231,7 +231,31 @@ källor: <https://github.com/tc39/proposals>, <https://www.proposals.es/>, https
 
 ## AJ 1.7 JavaScript i integrerade system
 
-Beskriv rubriken här
+### Vad innrbär Javascript i intregrerat system?
+
+## Integration av system med JavaScript
+
+Det innebär att man använder Javascript-teknik för att koppla ihop och kommunicera mellan olika mjukvarusystem och olika system.
+
+### Node.js
+
+En av de aspekterna som ingår i detta är **Node.js**, som vi har jobbat en del med.
+
+**Node.js** är en runtime-miljö som låter dig köra JavaScript utanför webbläsaren, främst på serversidan. Detta har flera viktiga kopplingar till integrerade system:
+
+- **Serverprogrammering**: Med Node.js kan man använda JavaScript för att skapa program som körs på servrar. Detta gör att man kan bygga tjänster som jobbar "bakom kulisserna" och som kan prata med andra system.
+- **Effektiv hantering av många uppgifter samtidigt**: Node.js är bra på att göra flera saker på en gång utan att fastna. Det kan hantera många anslutningar samtidigt, vilket är bra när ett system behöver prata med många andra system på samma gång.
+- **Stort bibliotek av färdiga lösningar**: NPM (Node Package Manager) är som en stor butik med gratis byggklossar för programmerare. Många av dessa byggklossar är gjorda för att hjälpa system att prata med varandra, till exempel för att koppla ihop med olika databaser eller andra tjänster på internet.
+
+### Webbsockets
+
+En annan viktig aspekt inom detta område är **Websockets**.
+
+Webbsockets är en teknik som låter en webbsida eller app ha en direkt, öppen koppling till en server. Det är lite som en telefonlinje som alltid är öppen mellan din dator eller telefon och en server.
+
+![alt text](Websockets.png)
+
+Här på bilden kan du förstå hur klient och server har en koppling.
 
 ## AJ 1.8 Native bundeling av JavaScript för olika operativsystem och enheter
 
