@@ -259,4 +259,22 @@ Här på bilden kan du förstå hur klient och server har en koppling.
 
 ## AJ 1.8 Native bundeling av JavaScript för olika operativsystem och enheter
 
-Beskriv rubriken här
+# Native bundling av JavaScript
+
+Native bundling av JavaScript handlar om att göra så att program skrivna i JavaScript kan köras direkt på en dator eller telefon, precis som vanliga appar.
+
+### React Native
+
+Native bundling av JavaScript och dess koppling till React är ett spännande område inom modern apputveckling. När vi pratar om React är det viktigt att förstå att det i grunden är ett kraftfullt verktyg för att bygga användargränssnitt på webben. React i sig gör inte native bundling, utan det är ett bibliotek som hjälper utvecklare att skapa interaktiva och dynamiska webbsidor.
+
+Men i teknikvärlden finns det alltid innovationer, och här kommer React Native in i bilden. React Native är en teknologi som tar koncepten från React och applicerar dem på mobil apputveckling. Det är här vi börjar se kopplingen till native bundling. Med React Native kan utvecklare använda sina kunskaper i React och JavaScript för att skapa appar som fungerar som "äkta" mobilappar på både iOS och Android. Detta är ett praktiskt exempel på native bundling, där JavaScript-kod paketeras på ett sätt som gör att den kan köras direkt på mobila enheter, utan att behöva en webbläsare.
+
+![alt text](React%20vs%20React%20Native.webp)
+
+### Nackdelar med React Native
+
+React Native är bra för många saker, men det finns några nackdelar:
+
+- Kan vara långsammare än vanliga appar, särskilt för spel eller appar med mycket grafik.
+- Funkar inte alltid med de nyaste sakerna på telefoner. Man kan behöva skriva extra kod för det.
+- Kan vara krångligt att fixa fel och testa appar.
