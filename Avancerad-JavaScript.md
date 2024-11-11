@@ -109,7 +109,9 @@ Källor: [https://whitespace.se/blogg/vad-ar-pwa-eller-progressive-web-apps/](ht
 
 # Typningssystem för JavaScript
 
-Typningssystem som TypeScript och JSDoc hjälper till att lägga till "typer" i JavaScript, något som inte finns i språket från början. Detta kan minska antalet fel genom att säkerställa att variabler och funktioner används på rätt sätt. TypeScript ger en striktare struktur, där utvecklaren anger vilken typ data ska ha, vilket kan vara särskilt användbart i stora projekt. Eftersom JavaScript är dynamiskt typat kan en variabel ändra typ under körning, vilket ibland kan leda till oväntade resultat. Typningssystem gör det enklare att förutse och förhindra sådana fel.
+Typningssystem som TypeScript och JSDoc hjälper till att lägga till "typer" i JavaScript, något som inte finns i språket från början. Detta kan minska antalet fel genom att säkerställa att variabler och funktioner används på rätt sätt. Med typer blir koden mer förutsägbar, vilket gör det lättare för utvecklare att undvika oväntade buggar och förbättrar kodens kvalitet. Typningssystem är särskilt användbara när flera utvecklare arbetar på ett projekt, eftersom de hjälper till att skapa tydliga riktlinjer kring hur data ska användas och vilka typer som förväntas i funktioner och variabler.
+
+TypeScript, som är ett av de mest populära typningssystemen för JavaScript, ger en striktare struktur där utvecklaren explicit anger vilken typ data ska ha, som exempelvis string, number, eller boolean. Detta är särskilt användbart i större projekt, där kodbasen kan bli komplicerad och där små misstag, som att blanda olika typer av data, kan leda till oväntade fel som är svåra att hitta. Med TypeScript får utvecklarna tidig feedback direkt i kodredigeraren om någon variabel används på ett sätt som inte stämmer överens med den angivna typen. Detta snabbar upp felsökningen och minskar risken för fel som annars bara skulle upptäckas under körning.
 
 ## Hur TypeScript fungerar
 
@@ -271,6 +273,8 @@ Native bundling av JavaScript handlar om att göra så att program skrivna i Jav
 Native bundling av JavaScript och dess koppling till React är ett spännande område inom modern apputveckling. När vi pratar om React är det viktigt att förstå att det i grunden är ett kraftfullt verktyg för att bygga användargränssnitt på webben. React i sig gör inte native bundling, utan det är ett bibliotek som hjälper utvecklare att skapa interaktiva och dynamiska webbsidor.
 
 Men i teknikvärlden finns det alltid innovationer, och här kommer React Native in i bilden. React Native är en teknologi som tar koncepten från React och applicerar dem på mobil apputveckling. Det är här vi börjar se kopplingen till native bundling. Med React Native kan utvecklare använda sina kunskaper i React och JavaScript för att skapa appar som fungerar som "äkta" mobilappar på både iOS och Android. Detta är ett praktiskt exempel på native bundling, där JavaScript-kod paketeras på ett sätt som gör att den kan köras direkt på mobila enheter, utan att behöva en webbläsare.
+
+Den stora fördelen med React Native är att den omvandlar JavaScript-komponenter till faktiska, plattformspecifika komponenter som mobilens operativsystem förstår. Medan en vanlig React-app körs i en webbläsare, omvandlas React Native-kod så att varje skärm och interaktion fungerar smidigt som i en äkta mobilapp. När en användare trycker på en knapp i en React Native-app svarar den med samma prestanda och känsla som en app byggd med Java eller Swift.
 
 ![alt text](React%20vs%20React%20Native.webp)
 
