@@ -262,10 +262,22 @@ Här på bilden kan du förstå hur klient och server har en koppling.
 
 ## AJ 1.8 Native bundeling av JavaScript för olika operativsystem och enheter
 
-Native bundling innebär att man paketerar en JavaScript-applikation så att den kan köras direkt på olika operativsystem, som om den vore en native app. Genom att använda verktyg som Electron och React Native kan man skapa applikationer med JavaScript som fungerar som riktiga program på mobiler, surfplattor och datorer – utan att de behöver köras i en webbläsare. Detta gör att JavaScript-utvecklare kan bygga applikationer som upplevs som native-program på Windows, macOS, iOS, Android, och Linux.
+# Native bundling av JavaScript
 
-Electron används ofta för att skapa desktop-applikationer och är perfekt när man vill ha samma kodbas på alla större operativsystem. Electron kör en inbyggd version av Chromium (en webbläsarmotor) som gör att JavaScript-kod kan köras på datorn utan att öppna en webbläsare. Detta används av populära appar som Visual Studio Code och Discord.
+Native bundling av JavaScript handlar om att göra så att program skrivna i JavaScript kan köras direkt på en dator eller telefon, precis som vanliga appar.
 
-React Native är ett verktyg för att bygga mobila applikationer med JavaScript som körs direkt på Android och iOS. Till skillnad från Electron är React Native mer specialiserat på mobila plattformar och omvandlar JavaScript-komponenter till native-komponenter på telefonen, vilket gör att appen känns mer responsiv.
+### React Native
 
-För användaren innebär native bundling en enklare installation av applikationen, då de kan ladda ner och starta den precis som vilken annan app som helst på enheten.
+Native bundling av JavaScript och dess koppling till React är ett spännande område inom modern apputveckling. När vi pratar om React är det viktigt att förstå att det i grunden är ett kraftfullt verktyg för att bygga användargränssnitt på webben. React i sig gör inte native bundling, utan det är ett bibliotek som hjälper utvecklare att skapa interaktiva och dynamiska webbsidor.
+
+Men i teknikvärlden finns det alltid innovationer, och här kommer React Native in i bilden. React Native är en teknologi som tar koncepten från React och applicerar dem på mobil apputveckling. Det är här vi börjar se kopplingen till native bundling. Med React Native kan utvecklare använda sina kunskaper i React och JavaScript för att skapa appar som fungerar som "äkta" mobilappar på både iOS och Android. Detta är ett praktiskt exempel på native bundling, där JavaScript-kod paketeras på ett sätt som gör att den kan köras direkt på mobila enheter, utan att behöva en webbläsare.
+
+![alt text](React%20vs%20React%20Native.webp)
+
+### Nackdelar med React Native
+
+React Native är bra för många saker, men det finns några nackdelar:
+
+- Kan vara långsammare än vanliga appar, särskilt för spel eller appar med mycket grafik.
+- Funkar inte alltid med de nyaste sakerna på telefoner. Man kan behöva skriva extra kod för det.
+- Kan vara krångligt att fixa fel och testa appar.
