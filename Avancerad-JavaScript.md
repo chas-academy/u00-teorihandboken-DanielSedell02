@@ -6,7 +6,8 @@ Studerande: Daniel Sedell
 
 ### Vad är Node.js?
 
-Node.js är en plattform som låter dig köra JavaScript-kod på serversidan, istället för bara i webbläsaren. Det är byggt på V8, vilket är Googles JavaScript-motor, samma som används i webbläsaren Chrome. Tack vare Node.js kan man använda JavaScript för att bygga hela webbtjänster, API:er, och till och med backend för appar.
+Node.js är en plattform som gör det möjligt att köra JavaScript-kod på serversidan, inte bara i webbläsaren. Eftersom den är byggd på Googles JavaScript-motor, V8, kan Node.js köra koden snabbt och effektivt. Detta gör det möjligt för utvecklare att använda JavaScript för att bygga fullständiga webbtjänster och applikationer på servernivå, något som tidigare krävde andra språk som PHP eller Java. Med hjälp av Node.js kan man skapa allt från enkla API
+till avancerade applikationer för realtidskommunikation, vilket passar bra för till exempel chattfunktioner och online-spel där många anslutningar hanteras samtidigt.
 
 ### Varför använda Node.js?
 
@@ -45,7 +46,8 @@ I det här exemplet skapar vi en enkel HTTP-server som svarar med texten "Hej, v
 
 ### Vad är Express?
 
-Express är ett populärt ramverk för att bygga webbapplikationer och API:er med Node.js. Det är känt för att vara enkelt, flexibelt och lätt att använda, vilket gör det till ett bra val för både nybörjare och erfarna utvecklare.
+Express är ett populärt verktyg eller ramverk för att skapa webbapplikationer och API
+med Node.js. Det förenklar arbetet genom att erbjuda färdiga funktioner för att hantera rutter, svar och förfrågningar på ett smidigt sätt. Tack vare enkelheten i Express kan både nya och erfarna utvecklare sätta upp en server snabbt och börja skapa funktioner direkt. Express är flexibelt och kan anpassas till olika projekt, från små hemsidor till stora appar, och med ett stort community finns det många färdiga moduler som sparar tid och gör det lättare att utveckla nya funktioner.
 
 ### Hur fungerar det?
 
@@ -82,7 +84,8 @@ app.listen(3000, () => {
 
 ### Vad är en Progressive Web App?
 
-Progressive Web Apps är en typ av webbapplikation som kombinerar det bästa av webb och mobilappar. Du kan köra appen genom att ladda ner den eller direkt i din webbläsare. PWA kombinerar fördelarna med en webbplats med egenskaper från konventionella appar.
+Progressive Web Apps (PWA) är webbappar som fungerar som vanliga appar men körs direkt i webbläsaren. De kombinerar fördelarna med webb och mobilappar – PWA
+är snabba, pålitliga och kan fungera offline, vilket ger en bra användarupplevelse även utan internetanslutning. Genom att skapa en PWA kan utvecklare spara tid och kostnader, eftersom de slipper bygga separata appar för varje operativsystem. Istället använder de samma kodbas för alla plattformar, och användaren kan välja att "installera" appen som ett bokmärke på sin hemskärm, vilket gör den lättillgänglig.
 
 ### Varför ska man använda den typen av app?
 
@@ -106,7 +109,7 @@ Källor: [https://whitespace.se/blogg/vad-ar-pwa-eller-progressive-web-apps/](ht
 
 # Typningssystem för JavaScript
 
-Ett typningssystem för JavaScript används för att ge fast typkontroll och hjälpa till att hitta och undvika fel som beror på felaktiga typer i koden. JavaScript är ett dynamiskt typat språk, vilket betyder att variabler kan ändra typ medan programmet körs. För att lägga till typkontroll i JavaScript används ofta **TypeScript** eller **JSDoc-kommentarer**.
+Typningssystem som TypeScript och JSDoc hjälper till att lägga till "typer" i JavaScript, något som inte finns i språket från början. Detta kan minska antalet fel genom att säkerställa att variabler och funktioner används på rätt sätt. TypeScript ger en striktare struktur, där utvecklaren anger vilken typ data ska ha, vilket kan vara särskilt användbart i stora projekt. Eftersom JavaScript är dynamiskt typat kan en variabel ändra typ under körning, vilket ibland kan leda till oväntade resultat. Typningssystem gör det enklare att förutse och förhindra sådana fel.
 
 ## Hur TypeScript fungerar
 
@@ -148,7 +151,7 @@ let isDone: boolean = false;
 
 # Funktionell programmering
 
-Funktionell programmering är ett programmeringsparadigm som behandlar beräkning som utvärdering av matematiska funktioner. Det lägger stor vikt vid att undvika föränderligt tillstånd och muterbara data. Istället för att ändra variabler, fokuserar funktionell programmering på att använda rena funktioner som alltid ger samma utdata för samma indata.
+Funktionell programmering är ett sätt att skriva kod där man arbetar med funktioner snarare än att ändra variabler. Istället för att ändra befintliga värden skapar man nya och använder rena funktioner som alltid ger samma resultat om de får samma indata. Detta minskar risken för fel eftersom koden blir mer förutsägbar och lättare att förstå. Inom funktionell programmering använder man ofta begrepp som oföränderlighet och högre ordningens funktioner. JavaScript, trots att det inte är ett renodlat funktionellt språk, stöder dessa tekniker och gör det möjligt att använda funktionell programmering.
 
 Funktionell programmering har sina rötter i lambda-kalkyl, ett formellt system utvecklat av matematikern Alonzo Church på 1930-talet. Lambda-kalkyl var ett sätt att undersöka beräkningsbarhet och funktioner, långt innan moderna datorer existerade.  
 Den första implementationen av ett funktionellt programmeringsspråk var Lisp, skapat av John McCarthy 1958. Lisp introducerade många koncept som fortfarande är centrala i funktionell programmering idag.
@@ -186,7 +189,7 @@ console.log("Summan av de dubblade jämna talen är:", total);
 
 ### Vad är ES.Next
 
-ECMAScript Next (ES.next) refererar till den nyaste versionen av ECMAScript-standarden, grunden för JavaScript. Varje ny utgåva innehåller nya funktioner och förbättringar som underlättar för utvecklare att skapa mer effektiv och pålitlig kod. Dessa uppdateringar är resultatet av ett pågående arbete från TC39, den tekniska kommittén som ansvarar för att utveckla ECMAScript-standarden. Målet är att kontinuerligt förfina språket och introducera moderna funktioner som möter de växande behoven hos utvecklare och applikationer.
+ES.Next är termen för de nyaste funktionerna i ECMAScript, JavaScripts standard. Dessa funktioner testas och läggs till stegvis genom en process som kallas TC39-proceduren. Här går ett förslag igenom flera faser från idé till officiell standard. Varje fas säkerställer att förslaget är genomtänkt och användbart innan det inkluderas. Funktioner som Promise.any och Optional Chaining har kommit ur denna process. Dessa förbättringar ger utvecklare nya sätt att skriva renare och mer effektiv kod, vilket gör det enklare att hantera och skapa robusta applikationer som är redo för framtidens krav.
 
 ### Processen när de olika förslagen läggs till
 
@@ -235,7 +238,7 @@ källor: <https://github.com/tc39/proposals>, <https://www.proposals.es/>, https
 
 ## Integration av system med JavaScript
 
-Det innebär att man använder Javascript-teknik för att koppla ihop och kommunicera mellan olika mjukvarusystem och olika system.
+JavaScript kan användas för att koppla samman olika system och skapa kommunikation mellan mjukvara och hårdvara. Ett exempel är att använda Node.js för att hantera backend-program på servrar som pratar med andra system eller enheter. Dessutom möjliggör WebSockets realtidskommunikation, där en direktkoppling hålls mellan användarens enhet och servern, vilket är praktiskt för applikationer som behöver kontinuerlig uppdatering. JavaScript i integrerade system innebär alltså att språket används för att länka ihop olika system, från databaser till webbappar, så att de kan utbyta data och samarbeta i realtid.
 
 ### Node.js
 
@@ -259,4 +262,10 @@ Här på bilden kan du förstå hur klient och server har en koppling.
 
 ## AJ 1.8 Native bundeling av JavaScript för olika operativsystem och enheter
 
-Beskriv rubriken här
+Native bundling innebär att man paketerar en JavaScript-applikation så att den kan köras direkt på olika operativsystem, som om den vore en native app. Genom att använda verktyg som Electron och React Native kan man skapa applikationer med JavaScript som fungerar som riktiga program på mobiler, surfplattor och datorer – utan att de behöver köras i en webbläsare. Detta gör att JavaScript-utvecklare kan bygga applikationer som upplevs som native-program på Windows, macOS, iOS, Android, och Linux.
+
+Electron används ofta för att skapa desktop-applikationer och är perfekt när man vill ha samma kodbas på alla större operativsystem. Electron kör en inbyggd version av Chromium (en webbläsarmotor) som gör att JavaScript-kod kan köras på datorn utan att öppna en webbläsare. Detta används av populära appar som Visual Studio Code och Discord.
+
+React Native är ett verktyg för att bygga mobila applikationer med JavaScript som körs direkt på Android och iOS. Till skillnad från Electron är React Native mer specialiserat på mobila plattformar och omvandlar JavaScript-komponenter till native-komponenter på telefonen, vilket gör att appen känns mer responsiv.
+
+För användaren innebär native bundling en enklare installation av applikationen, då de kan ladda ner och starta den precis som vilken annan app som helst på enheten.
